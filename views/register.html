@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register - BAUST Bulletin</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="auth-body">
+
+  <div class="auth-card">
+    <h1>Create Account</h1>
+    <p>Join BAUST Bulletin</p>
+
+    <form method="POST" action="/register" enctype="multipart/form-data">
+      <input type="text" name="baust_id" placeholder="BAUST ID" required>
+      <input type="text" name="fullname" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+
+      <select name="role" required>
+        <option value="Student">Student</option>
+        <option value="Teacher">Teacher</option>
+      </select>
+
+      <input type="text" name="department" placeholder="Department" required>
+
+      <label class="upload-label">Upload Profile Picture</label>
+      <input type="file" name="profile" accept="image/*">
+
+      <button type="submit">Register</button>
+    </form>
+
+    <p class="auth-link">Already have account? <a href="/">Login</a></p>
+  </div>
+
+</body>
+</html>

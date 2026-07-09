@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - BAUST Bulletin</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="auth-body">
+
+  <div class="auth-card">
+    <h1>BAUST Bulletin</h1>
+    <p>Campus-only Social Platform</p>
+
+    <form method="POST" action="/login">
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+
+    <p class="auth-link">No account? <a href="/register">Register</a></p>
+
+    <div class="demo-box">
+      <p><b>Student:</b> galib@baust.edu.bd / 123456</p>
+      <p><b>Admin:</b> admin@baust.edu.bd / admin123</p>
+    </div>
+  </div>
+
+</body>
+</html>

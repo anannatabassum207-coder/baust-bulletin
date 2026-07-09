@@ -1,0 +1,25 @@
+{
+  "name": "baust-bulletin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "msnodesqlv8": "^5.2.0",
+    "mssql": "^12.5.2",
+    "multer": "^2.1.1",
+    "nodemon": "^3.1.14"
+  }
+}
